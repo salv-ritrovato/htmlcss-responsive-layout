@@ -57,11 +57,14 @@
         width: 36vw;
     }
 
+    .recipe-info {
+        padding: 10px;
+    }
+
     .quick-notes ul {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        line-height: 1px;
     }
 
     .social-networks .label {
