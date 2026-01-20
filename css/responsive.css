@@ -76,3 +76,19 @@
         justify-content: space-between;
     }
 }
+/*====================*/
+
+/*==LARGE MOBILE 576PX==*/
+@media screen and (max-width: 576px) {
+    .clearfix img {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .social-networks .btn {
+        width: 150px;
+    }
+    }
+
+/*====================*/
