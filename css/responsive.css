@@ -1,0 +1,23 @@
+/* Soluzione qui */
+@media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: left;
+        font-size: 1em;
+    }
+
+    .recipe {
+        padding: 25px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
+    }
+
+    ul {
+        display: flex;
+    }
+}
