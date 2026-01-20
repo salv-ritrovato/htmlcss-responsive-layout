@@ -17,7 +17,23 @@
         font-size: 2rem;
     }
 
-    ul {
-        display: flex;
+ .quick-notes ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+
+    .social-networks .btn {
+        width: 200px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+   .clearfix img {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
 }
