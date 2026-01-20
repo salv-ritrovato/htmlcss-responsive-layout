@@ -1,5 +1,7 @@
 /* Soluzione qui */
-@media screen and (min-width: 768px) {
+
+/*==TABLET MODE 768PX==*/
+@media screen and (min-width: 769px) {
     #topbar {
         justify-content: left;
         font-size: 1em;
@@ -35,5 +37,31 @@
         float: left;
         margin-right: 20px;
         margin-bottom: 10px;
+    }
+}
+/*====================*/
+
+/*==DESKTOP MODE 992PX==*/
+@media screen and (min-width: 993px) {
+    .recipe-name {
+        font-size: 2.5rem;
+    }
+
+    .recipe-card {
+        display: flex;
+        gap: 20px;
+    }
+
+    .recipe-video {
+        height: 38vh;
+        width: 36vw;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1px;
+        
     }
 }
