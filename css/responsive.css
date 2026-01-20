@@ -1,5 +1,19 @@
 /* Soluzione qui */
 
+/*==LARGE MOBILE 576PX==*/
+@media screen and (min-width: 576px) {
+    .clearfix img {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .social-networks .btn {
+        width: 150px;
+    }
+    }
+/*====================*/
+
 /*==TABLET MODE 768PX==*/
 @media screen and (min-width: 769px) {
     #topbar {
@@ -76,19 +90,4 @@
         justify-content: space-between;
     }
 }
-/*====================*/
-
-/*==LARGE MOBILE 576PX==*/
-@media screen and (max-width: 576px) {
-    .clearfix img {
-        float: left;
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
-
-    .social-networks .btn {
-        width: 150px;
-    }
-    }
-
 /*====================*/
